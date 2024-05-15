@@ -1,55 +1,25 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
 
 # Flash-Chat
 
-## Our Goal
+## Hedefimiz
 
-One of the most fundamental component of modern iOS apps is the Table View. Table Views are used everywhere from the Mail app to the Messages app. It’s a crucial part of every iOS developer’s tool belt. In this tutorial we’ll be getting to grips with Table Views, creating custom cells, and making our own cloud-based backend database. It’s going to be epic, so buckle up.
+Modern iOS uygulamalarının en temel bileşenlerinden biri Tablo Görünümüdür. Tablo Görünümleri Mail uygulamasından Mesajlar uygulamasına kadar her yerde kullanılır. Her iOS geliştiricisinin araç kemerinin önemli bir parçasıdır. Bu eğitimde Tablo Görünümleri ile tanışacak, özel hücreler oluşturacak ve kendi bulut tabanlı arka uç veritabanımızı oluşturacağız. Epik olacak, bu yüzden kemerlerinizi bağlayın.
 
-## What you will create
+## Ne oluşturacaksınız
 
-Flash Chat is an internet based messaging app similar to WhatsApp, the popular messaging app that was bought by Facebook for $22 billion. We will be using a service called Firebase Firestore as a backend database to store and retrieve our messages from the cloud. 
+Flash Chat, Facebook tarafından 22 milyar dolara satın alınan popüler mesajlaşma uygulaması WhatsApp'a benzer internet tabanlı bir mesajlaşma uygulamasıdır. Mesajlarımızı depolamak ve buluttan almak için arka uç veritabanı olarak Firebase Firestore adlı bir hizmet kullanacağız. 
 
-## What you will learn
+## Ne öğreneceksiniz
 
-* How to integrate third party libraries in your app using Cocoapods and Swift Package Manager.
-* How to store data in the cloud using Firebase Firestore.
-* How to query and sort the Firebase database.
-* How to use Firebase for user authentication, registration and login.
-* How to work with UITableViews and how to set their data sources and delegates.
-* How to create custom views using .xib files to modify native design components.
-* How to embed View Controllers in a Navigation Controller and understand the navigation stack.
-* How to create a constants file and use static properties to store Strings and other constants.
-* Learn about Swift loops and create animations using loops.
-* Learn about the App Lifecycle and how to use viewWillAppear or viewWillDisappear.
-* How to create direct Segues for navigation.
+* Cocoapods ve Swift Paket Yöneticisi kullanarak üçüncü parti kütüphaneleri uygulamanıza nasıl entegre edersiniz.
+* Firebase Firestore kullanarak bulutta nasıl veri depolanır.
+* Firebase veritabanı nasıl sorgulanır ve sıralanır.
+* Kullanıcı kimlik doğrulaması, kayıt ve oturum açma için Firebase nasıl kullanılır.
+* UITableViews ile nasıl çalışılır ve veri kaynakları ve temsilcileri nasıl ayarlanır.
+* Yerel tasarım bileşenlerini değiştirmek için .xib dosyalarını kullanarak özel görünümlerin nasıl oluşturulacağı.
+* Görünüm Denetleyicilerinin bir Gezinme Denetleyicisine nasıl yerleştirileceği ve gezinme yığınının nasıl anlaşılacağı.
+* Bir sabitler dosyası nasıl oluşturulur ve Dizeleri ve diğer sabitleri saklamak için statik özellikler nasıl kullanılır.
+* Swift döngüleri hakkında bilgi edinme ve döngüleri kullanarak animasyonlar oluşturma.
+* Uygulama Yaşam Döngüsü hakkında bilgi edinin.
 
-
-# Constants
-```
-struct K {
-    static let cellIdentifier = "ReusableCell"
-    static let cellNibName = "MessageCell"
-    static let registerSegue = "RegisterToChat"
-    static let loginSegue = "LoginToChat"
-    
-    struct BrandColors {
-        static let purple = "BrandPurple"
-        static let lightPurple = "BrandLightPurple"
-        static let blue = "BrandBlue"
-        static let lighBlue = "BrandLightBlue"
-    }
-    
-    struct FStore {
-        static let collectionName = "messages"
-        static let senderField = "sender"
-        static let bodyField = "body"
-        static let dateField = "date"
-    }
-}
-
-```
-
->This is a companion project to The App Brewery's Complete App Developement Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
+Translated with DeepL.com (free version)
