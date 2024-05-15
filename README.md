@@ -21,5 +21,3 @@ Flash Chat, Facebook tarafından 22 milyar dolara satın alınan popüler mesajl
 * Bir sabitler dosyası nasıl oluşturulur ve Dizeleri ve diğer sabitleri saklamak için statik özellikler nasıl kullanılır.
 * Swift döngüleri hakkında bilgi edinme ve döngüleri kullanarak animasyonlar oluşturma.
 * Uygulama Yaşam Döngüsü hakkında bilgi edinin.
-
-Translated with DeepL.com (free version)
